@@ -1,0 +1,55 @@
+.home {
+    height: 600px;
+    background: url('/images/Home/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.home .home-information {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.home .home-information .home-title {
+    margin-left: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    color: grey;
+}
+
+.home .home-information .home-info {
+    font-size: 35px;
+    color: #eb5424;
+    margin-bottom: 20px;
+}
+
+.home .home-information .home-desc {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #888;
+    margin-bottom: 20px
+}
+
+.home .home-information .home-desc span {
+    color: #000
+}
+
+.home .home-information .home-btn {
+    background: #fff;
+    color: blueviolet;
+    font-size: 18px;
+    width: 150px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.home .home-information .home-btn:hover {
+    background: #fff;
+    color: black
+}

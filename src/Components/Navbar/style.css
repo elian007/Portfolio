@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Regular.ttf)
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../../fonts/Iceland/Iceland-Regular.ttf)
+}
+  
+
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+.navbar .logo {
+    width: 40%;
+    float: left;
+}
+
+.navbar .logo .logo-text{
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Iceland;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar input , .navbar label {
+    position: absolute;
+    top: 13px;
+    right: 25px;
+}
+
+.navbar input {
+    display: none
+}
+
+.navbar .ul-list {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a {
+    display:flex;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    align-content: space-between;
+    font-family: Amatic;
+    font-size: 1.7em;
+}
+
+.navbar .ul-list .list-item a:hover {
+    color: black;
+}

@@ -1,0 +1,59 @@
+{  
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "Estágio em Infraestrutura de Redes",
+            "body": "Faço estágio no setor de tecnologia da informação na UTFPR-CP.Participei de projetos como: - Implantação de telefonia VoIP no campus, - Implantação da infraestrutura de redes no bloco novo a ser inaugurado. E algumas das atividades que realizo:- Configuração básica de switchs (cisco/HP/3Com), AP Cisco e câmeras,- Assim como, suporte em geral ao usuário, e aos problemas que possam ocorrer na rede no dia-a-dia.",
+            "image": "/images/infra.jpg"
+        }
+       
+    ],
+
+    "portfolio" : [
+        {
+            "id": 1,
+            "image" : "/images/portfolio-img1.jpg",
+            "body":"Apenas exemplos de projetos"
+        },
+        {
+            "id": 2,
+            "image" : "/images/portfolio-img2.jpg",
+            "body":"Apenas exemplos de projetos"
+
+        },
+        {
+            "id": 3,
+            "image" : "/images/portfolio-img3.jpg",
+            "body":"Apenas exemplos de projetos"
+
+        },
+        {
+            "id": 4,
+            "image" : "/images/portfolio-img4.jpg",
+            "body":"Apenas exemplos de projetos"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "image" : "/images/face.png",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "image" : "/images/link.png",
+            "title" : "Follow Me on",
+            "body" : "Social LinkdIn"
+        },
+        {
+            "id": 2,
+            "image" : "/images/insta.png",
+            "title" : "Follow Me on",
+            "body" : "Social Instagram"
+        }
+    
+    ]
+
+}

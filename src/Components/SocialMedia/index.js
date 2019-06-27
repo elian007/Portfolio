@@ -22,7 +22,7 @@ render(){
                     <h4 className="part-title">{socialItem.title}</h4>
                     <hr className="line"/>
                     <p className="part-desc">{socialItem.body}</p>
-                    <img src={socialItem.image} alt='Icon'/>
+                    <a href={socialItem.url} target='blank'><img src={socialItem.image} alt='Icon'/></a>
                    
 
                 </div>

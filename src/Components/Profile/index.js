@@ -6,7 +6,7 @@ const Profile = () =>{
         <div class="profile_skills">
             <div class="container">
                 <div class="profile">
-                    <h2 class="profile-title"><span>Perfil</span></h2>
+                    <h2 class="profile-title"><span>Contato</span></h2>
                     <ul class="profile-list">
                         <li class="profile-item">
                             <span>Nome</span>

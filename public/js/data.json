@@ -39,19 +39,23 @@
             "id": 1,
             "image" : "/images/face.png",
             "title" : "Follow Me on",
+            "url":"https://www.facebook.com/elian.marcos.7",
             "body" : "Social Facebook"
+
         },
         {
             "id": 2,
             "image" : "/images/link.png",
             "title" : "Follow Me on",
+            "url":"https://www.linkdin.com/in/elian-marcos",
             "body" : "Social LinkdIn"
         },
         {
             "id": 2,
             "image" : "/images/insta.png",
             "title" : "Follow Me on",
-            "body" : "Social Instagram"
+            "body" : "Social Instagram",
+            "url":"https://www.instagram.com/elian.marcos.7"
         }
     
     ]

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 import Home from './../Home'
 import About from './../About'
@@ -10,7 +10,7 @@ import Footer from './../Footer'
 
 function Index() {
   return (
-    <div>
+    <Fragment>
       <Home />
       <Work />
       <Portfolio />
@@ -19,7 +19,7 @@ function Index() {
       <SocialMedia />
       <Footer />
 
-    </div>
+    </Fragment>
   );
 }
 

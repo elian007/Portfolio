@@ -5,7 +5,7 @@ const Footer = () =>{
         <Fragment>
         <div class="drop">
             <div class="container">
-                <h2 class="drop-title"><span>Me </span>envia uma mensagem</h2>
+                <h2 class="drop-title"><span>Me </span>envie uma mensagem</h2>
                 <form action="">
                     <div class="form-input">
                         <input type="text" placeholder="Your Name"/>

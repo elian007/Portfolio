@@ -4,7 +4,7 @@
             "id" : 1,
             "icon_name": "icon fa fa-chain fa-2x",
             "title": "Estágio em Infraestrutura de Redes",
-            "body": "Faço estágio no setor de tecnologia da informação na UTFPR-CP.Participei de projetos como: - Implantação de telefonia VoIP no campus, - Implantação da infraestrutura de redes no bloco novo a ser inaugurado. E algumas das atividades que realizo:- Configuração básica de switchs (cisco/HP/3Com), AP Cisco e câmeras,- Assim como, suporte em geral ao usuário, e aos problemas que possam ocorrer na rede no dia-a-dia.",
+            "body": "Faço estágio no setor de tecnologia da informação na UTFPR-CP. Participei de projetos como:  Implantação de telefonia VoIP no campus,  Implantação da infraestrutura de redes no bloco novo a ser inaugurado. E algumas das atividades que realizo: Configuração básica de switchs (cisco/HP/3Com), AP Cisco e câmeras. Assim como, suporte em geral ao usuário, e aos problemas que possam ocorrer na rede no dia-a-dia.",
             "image": "/images/infra.jpg"
         }
        
@@ -13,25 +13,64 @@
     "portfolio" : [
         {
             "id": 1,
+            "title":"Exemplo 1",
             "image" : "/images/portfolio-img1.jpg",
             "body":"Apenas exemplos de projetos"
         },
         {
             "id": 2,
+            "title":"Exemplo 2",
             "image" : "/images/portfolio-img2.jpg",
             "body":"Apenas exemplos de projetos"
 
         },
         {
             "id": 3,
+            "title":"Exemplo 3",
             "image" : "/images/portfolio-img3.jpg",
-            "body":"Apenas exemplos de projetos"
+            "body":"Apenas exemplos de projetos",
 
         },
         {
             "id": 4,
+            "title":"Exemplo 4",
             "image" : "/images/portfolio-img4.jpg",
             "body":"Apenas exemplos de projetos"
+        },
+        {
+            "id": 5,
+            "title":"Exemplo 5",
+            "image" : "/images/portfolio-img5.jpg",
+            "body":"Apenas exemplos de projetos"
+
+        },
+        {
+            "id": 6,
+            "title":"Exemplo 6",
+            "image" : "/images/portfolio-img6.jpg",
+            "body":"Apenas exemplos de projetos"
+
+        }
+    ] ,
+    "blog" : [
+        {
+            "id": 1,
+            "title":"What is Lorem Ipsum?",
+            "image" : "/images/portfolio-img1.jpg",
+            "body":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "id": 2,
+            "title":"Why do we use it?",
+            "image" : "/images/portfolio-img2.jpg",
+            "body":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+
+        },
+        {
+            "id": 3,
+            "title":"Where can I get some?",
+            "image" : "/images/portfolio-img3.jpg",
+            "body":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
         }
     ] ,
     "social" : [
@@ -58,6 +97,11 @@
             "url":"https://www.instagram.com/elian.marcos.7"
         }
     
+    ],
+    "profile": [
+        {
+        "body":"Universitário de Engenharia de Sofware pela Universidade Tecnológica Federal do Paraná. Estou no 6º período, e no momento faço estágio no setor de tecnologia da informação da própria universidade."
+    }
     ]
 
 }

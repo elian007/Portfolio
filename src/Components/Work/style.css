@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Regular.ttf)
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../../fonts/Iceland/Iceland-Regular.ttf)
+}
+
 .work {
     height: auto;
     padding: 50px 0;
@@ -8,6 +18,8 @@
 
 .work .work-title {
     font-size: 60px; 
+    font-family: Amatic
+
 }
 
 .work .work-title span {
@@ -17,7 +29,7 @@
 .work .part {
 
     margin-top: 20px;
-    width: 30%;
+    width: 100%;
     float: left;
     height: auto;
     padding: 100px 0;
@@ -31,15 +43,12 @@
     margin-left: 0
 }
 
-.work .part .icon {
-    color: #888;
-    margin-bottom: 20px
-}
 
 .work .part .part-title {
-    font-size: 25px;
+    font-size: 50px;
     color: #eb5424;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family: Iceland
 }
 
 .work .part .line {

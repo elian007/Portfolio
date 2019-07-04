@@ -28,7 +28,7 @@
     font-weight: bold;
     font-family: Iceland;
     align-items: center;
-    color: #fff;
+    color: #565656;
 }
 
 .navbar input , .navbar label {
@@ -54,7 +54,7 @@
 
 .navbar .ul-list .list-item a {
     display:flex;
-    color:#fff;
+    color:#565656;
     text-decoration: none;
     padding: 10px 15px;
     font-weight: bold;

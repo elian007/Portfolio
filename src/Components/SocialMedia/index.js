@@ -1,14 +1,13 @@
 import React, {Component} from 'react'
+import api from './../../Services/api'
 import './style.css'
-import axios from 'axios'
-
 
 class SocialMedia extends Component{
     state = {
         social: []
 }
 componentDidMount(){
-    axios.get('js/data.json').then(res => {this.setState({social: res.data.social})})
+    api.get('/socialmedia').then(res => {this.setState({social: res.data})})
 }
 
 render(){
@@ -17,17 +16,21 @@ render(){
     const socialList = social.map((socialItem) => {
         return(
             <div className="social" first={socialItem.id} key={socialItem.id}>
-            <div className="container">
+            <div className="container-fluid">
+            
+
                 <div className="part first">
                     <h4 className="part-title">{socialItem.title}</h4>
                     <hr className="line"/>
                     <p className="part-desc">{socialItem.body}</p>
-                    <a href={socialItem.url} target='blank'><img src={socialItem.image} alt='Icon'/></a>
+                    <a href={socialItem.url} target='blank'><img id='imgs'src={socialItem.image} alt='Icon'/></a>
                    
 
                 </div>
-            </div>
-            </div>   
+                </div>
+                </div>
+
+           
         )
     })
 
@@ -35,13 +38,17 @@ render(){
 
     return(
 
-    <div className="work">
-        <div className="container">
-            <h2 className="work-title"><span>Social Media</span></h2>
+    <div className="social border">
+            <h2 className="social-title"><span>Social Media</span></h2>
+
+        <div className="container-fluid">
+            <div class="row ">
             {socialList}
-            
+            </div>
         </div>
-    </div>
+        </div>
+
+    
 )
     }
 }

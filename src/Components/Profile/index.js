@@ -1,98 +1,46 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './style.css'
+import api from './../../Services/api'
 
-const Profile = () =>{
+class Profile extends Component{
+
+    state = {
+        profile: []
+    }
+componentDidMount(){
+    api.get('/profile').then(res => {this.setState({profile: res.data})})
+}
+render(){
+    const{profile} = this.state;
+    const profiles = profile.map((profileItem) =>{
     return(
-        <div class="profile_skills">
-            <div class="container">
-                <div class="profile">
-                    <h2 class="profile-title"><span>Contato</span></h2>
-                    <ul class="profile-list">
-                        <li class="profile-item">
-                            <span>Nome</span>
-                            Elian Marcos Veloso
-                        </li>
-                        <li class="profile-item">
-                            <span>Nascimento</span>
-                            07/08/1991
-                        </li>
-                        <li class="profile-item">
-                            <span>Endereço</span>
-                            Cornélio Procópio, PR - Brasil
-                        </li>
-                        <li class="profile-item">
-                            <span>Whats</span>
-                            (15)99756-6036
-                        </li>
-                        <li class="profile-item">
-                            <span>Email</span>
-                            elians.2016@alunos.utfpr.edu.br<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            elian.marcos@hotmail.com
-                        </li>
-                        
-                    </ul>
-                </div>
-                
-                <div class="skills">
-                    <h2 class="skills-title">Algumas<span> skills</span></h2>
-                    <p class="skills-desc">
-                        Algumas das habilidades adquiridas com o curso e estágio.
-                    </p>
-                    <div class="bar">
-                        <span class="title">Infraesturura de Redes</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
-                    
-                    <div class="bar">
-                        <span class="title">CSS3</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
+        <div class="creative">
+        <div class="container">
+            <div class="creative-info">
+                <h2 class="info-title"><span>This is</span> Me</h2>
+                <h4 class="info-dir">Universitário</h4>
+                <p class="info-desc">
+                    Olá, sou <b>Elian Marcos</b>, {profileItem.body}
+                </p>
+                <p class="info-desc">
 
-                    <div class="bar">
-                        <span class="title">ReactJS</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    )
+    })
+    return(
 
-                    <div class="bar">
-                        <span class="title">NodeJS</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
-
-                    <div class="bar">
-                        <span class="title">CSS3</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
-                    
-                    <div class="bar">
-                        <span class="title">HTML5</span>
-                        <span class="perc"></span>
-                        <div class="parent">
-                            <span class="sp1"></span>
-                        </div>
-                    </div>
-                </div>
+        <div className="creative">
+            <div className="container">
+                {profiles}
                 
             </div>
         </div>
     )
 }
+}
 
 export default Profile
+

@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 import './style.css'
-import axios from 'axios'
+import api from './../../Services/api'
 
 class Portfolio extends Component{
     state = {
         portfolio: []
 }
 componentDidMount(){
-    axios.get('js/data.json').then(res => {this.setState({social: res.data.portfolio})})
+    api.get('/portfolio').then(res => {this.setState({portfolio: res.data})})
 }
 
 render(){
@@ -21,27 +21,20 @@ render(){
                     <h4 className="part-title">{portItem.title}</h4>
                     <hr className="line"/>
                     <p className="part-desc">{portItem.body}</p>
-                    <img src={portItem.image} alt='Exemplo'/>
-                   
-
+                    <img id="img"src={portItem.image} alt='Exemplo'/>
                 </div>
             </div>
             </div>   
         )
     })
-
-
-
     return(
-
-    <div className="work">
+    <div className="port border bg-light">
         <div className="container">
-            <h2 className="work-title"><span>Portfolio</span></h2>
+            <h2 className="port-title"><span>Portfolio</span></h2>
             {portList}
-            
         </div>
     </div>
-)
+    )
     }
 }
 

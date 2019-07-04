@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Regular.ttf)
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../../fonts/Iceland/Iceland-Regular.ttf)
+}
+ 
+
+
+#img{
+    width: 9em;
+    height: 9em;
+}
+
+
+.port {
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+    background: #fff
+}
+
+
+.port .port-title {
+    font-size: 60px; 
+    font-family: Amatic
+}
+
+.port .port-title span {
+    font-weight: normal
+}
+
+.port .part {
+
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    height: auto;
+    padding: 80px 0;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5%
+}
+
+.port .first {
+    margin-left: 0
+}
+
+.port .part .icon {
+    color: #888;
+    margin-bottom: 20px
+}
+
+.port .part .part-title {
+    font-size: 50px;
+    color: #eb5424;
+    margin-bottom: 20px;
+    font-family: Iceland
+}
+
+.port .part .line {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px
+}
+
+.port .part .part-desc {
+    font-size: 14px;
+    color: #888;
+    padding: 20px
+}
+
+

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './style.css'
-import axios from 'axios'
+import api from './../../Services/api'
 
 
 class Work extends Component{
@@ -9,7 +9,7 @@ class Work extends Component{
             works: []
     }
     componentDidMount(){
-        axios.get('js/data.json').then(res => {this.setState({works: res.data.works})})
+        api.get('/work').then(res => {this.setState({works: res.data})})
     }
 
     render(){

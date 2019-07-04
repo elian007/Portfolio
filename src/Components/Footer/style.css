@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Regular.ttf)
+}
+
+@font-face {
+    font-family: Iceland;
+    src: url(../../fonts/Iceland/Iceland-Regular.ttf)
+}
+
+
+
 .drop {
     padding: 50px 0;
     text-align: center
@@ -5,7 +17,9 @@
 
 .drop .drop-title {
     font-size: 60px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-family: Amatic
+
 }
 
 .drop .drop-title span {

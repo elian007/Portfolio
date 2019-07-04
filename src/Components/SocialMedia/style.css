@@ -1,4 +1,77 @@
-img{
-    width: 5em;
-    height: 5em;
+@font-face {
+    font-family: Amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Regular.ttf)
 }
+
+@font-face {
+    font-family: Iceland;
+    src: url(../../fonts/Iceland/Iceland-Regular.ttf)
+}
+
+#imgs{
+    width: 5em;
+    height: 5em
+}
+
+.social {
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+    background: #fff
+}
+
+
+.row{
+    margin-left: 10em;
+}
+
+.social .social-title {
+    font-size: 60px; 
+    font-family: Amatic
+
+}
+
+.social .social-title span {
+    font-weight: normal;
+    margin-left: 2em;
+}
+
+.social .part {
+
+    margin-top: 30px;
+    width: 15em;
+    float: left;
+    height: auto;
+    padding: 100px 0;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5%
+}
+
+.social .first {
+    margin-left: 0
+}
+
+
+
+.social .part .part-title {
+    font-size: 45px;
+    color: #eb5424;
+    margin-bottom: 20px;
+    font-family: Iceland
+
+}
+
+.social .part .line {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px
+}
+
+.social .part .part-desc {
+    font-size: 14px;
+    color: #888;
+    padding: 20px
+}
+
